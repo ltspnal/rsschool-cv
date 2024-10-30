@@ -1,1 +1,1 @@
-** [CV] (https://ltspnal.github.io/rsschool-cv/cv) **
+[CV] (https://ltspnal.github.io/rsschool-cv/cv) 
