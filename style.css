@@ -356,7 +356,6 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
-
 #projects {
   position: relative;
 }
@@ -364,22 +363,30 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-}
-
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  padding: 20px; /* Добавим отступы для удобства */
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 1rem 0; /* Отступ сверху и снизу */
   color: black;
 }
 
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+.btn-container {
+  margin-bottom: 2rem; /* Добавим отступ между кнопками */
+}
+
+pre {
+  margin: 0; /* Убираем отступы у pre */
+  white-space: pre-wrap; /* Сохраняем переносы строк и пробелы */
+  word-wrap: break-word; /* Перенос длинных строк */
+  background-color: #f4f4f4; /* Фон для блока с кодом */
+  border: 1px solid #ccc; /* Рамка вокруг блока кода */
+  border-radius: 5px; /* Закругленные углы */
+  padding: 10px; /* Отступ внутри блока кода */
+}
+
+h1 {
+  text-align: center;
 }
 
 /* CONTACT */
